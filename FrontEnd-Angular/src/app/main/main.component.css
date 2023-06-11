@@ -1,0 +1,28 @@
+a{
+    text-decoration: none;
+    border: none;
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;    
+}
+
+div {
+
+        background-color: #eee;
+        margin-top: 5px;
+        border-radius: 6px;
+        padding: 5px;
+        width: 500px;
+}
+div .del{
+    font-weight: bold;
+    font-size: 10px;
+    background-color: green;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}

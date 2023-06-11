@@ -1,0 +1,12 @@
+
+<a routerLink="/add">Ajouter TodoList</a>
+<br>
+<br>
+<div *ngFor="let todo of   TodoList">
+    <div>
+       <span> {{todo}}</span>
+        <span class="del"  (click)="Supprimer(todo);reloadCurrentPage();">Done</span>
+        <br>
+        <br>
+    </div>
+</div>

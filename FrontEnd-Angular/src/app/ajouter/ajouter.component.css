@@ -1,0 +1,13 @@
+button{
+    background-color: red;
+    color: azure;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+.one{
+    
+    align-self: center;
+}

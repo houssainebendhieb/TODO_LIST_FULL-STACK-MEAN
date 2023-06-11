@@ -1,0 +1,8 @@
+<h1>Ajouter une todolist</h1>
+
+<form  #addform="ngForm" (ngSubmit)="Ajouter(addform)">
+
+        <input type="text" placeholder="todo name" name="name"  ngModel required #name="ngModel">
+        <button type="submit">Add</button>
+</form>
+<a routerLink="/">Back to todolist</a>
